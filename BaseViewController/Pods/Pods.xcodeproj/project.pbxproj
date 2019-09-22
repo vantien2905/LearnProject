@@ -1,0 +1,962 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0080EE14ACF94835F134BE2EA5468C06 /* DTModelStorage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EE8559E4C53EB8D034D8F2506D94F0E /* DTModelStorage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		023AEC479D85096AA75704E33339FEB7 /* SingleSectionDiffing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A1831C1EDCFF543012C1C3B7EF8DF6 /* SingleSectionDiffing.swift */; };
+		0F54D4B02135E4D94E8F28CBD9FC999A /* Pods-BaseViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBED9CDE1EE6C09512F9088266C5C825 /* Pods-BaseViewController-dummy.m */; };
+		1477591D04921563C981ADF3BD449D7D /* AnomalyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C13CFECA1F565207B6CBBE58EC4C1 /* AnomalyHandler.swift */; };
+		15D12B4DDF328D45E7B153F01011F02F /* DTTableViewManagerAnomalyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB335FF937556AB11ADA7839BB71F02 /* DTTableViewManagerAnomalyHandler.swift */; };
+		18AB341395D72EBE5E1CD1C72278B311 /* DTTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DB01ED12926D007D849F4828E0D887 /* DTTableViewDelegate.swift */; };
+		28601338C3CACC461535C7249A20AE41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B931BEFBD07F75597B1805E95A34FC3D /* UIKit.framework */; };
+		28705A861327CEAA3B3BCA2808999001 /* DTTableViewManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68242B60C14E98160C1E55A16312099F /* DTTableViewManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DA2800F42947F8A30370DCA897C269F /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = E437D9CD7624FE3A2D7B50AA2EE9E535 /* Section.swift */; };
+		32357F6B2004CD0630F5984AC6102BA6 /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1E338C0ED9DCCDD1AAF5E0E8424E8A /* SectionModel.swift */; };
+		35EBFDE9FB81014D6400E8A99B769182 /* TableViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F02B04352CD695AFF863047900E4C21 /* TableViewConfiguration.swift */; };
+		3B76460A6AD287DCA083E2945D916C2D /* ViewModelMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA97BAF62BE704163B321C229473BD /* ViewModelMapping.swift */; };
+		3C476D99E55A4DFF5DBC1A0178578B69 /* DTTableViewManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8772965DEE5B6784B2D26B397022BFB4 /* DTTableViewManager-dummy.m */; };
+		4E35EEC24FCCF1B51681AC1361C50F56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF4908CD5C094BE0FCF6BA28A9FCBE3 /* Foundation.framework */; };
+		50DB12AA4FBF9B7F75937D7E51CC18E2 /* DTTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57E3F120DECF0749A8F647CF83B0C8F /* DTTableViewDataSource.swift */; };
+		51E71AA206C7550F066C7833EBB03F08 /* DTTableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6742C25A4C55099598C222F1C113734D /* DTTableViewManager.swift */; };
+		60EC56AFE1001F21E33DBE62875DF269 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF4908CD5C094BE0FCF6BA28A9FCBE3 /* Foundation.framework */; };
+		62CA5BF9A51A1ED8CD31ECA59C51EEC1 /* BackwardsCompatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D43575AEDAE651820A3DE8DF517A56C /* BackwardsCompatibility.swift */; };
+		65B528A135D6F271422CB14E2D5DEA34 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C04D5E0319FF6CE4CC87F7FAAB2200 /* CoreData.framework */; };
+		67C84074BBD96D142D0A6A729FD98B90 /* DTTableViewManager+Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159A24472BD6CE10500D6909B6158971 /* DTTableViewManager+Drop.swift */; };
+		687E65A78B098EA8AE0B7764EA26ADDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF4908CD5C094BE0FCF6BA28A9FCBE3 /* Foundation.framework */; };
+		6AE55067AC853C860A60068BB4176D04 /* DTModelStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C06F85A95F796FDEF1716B2ED90602 /* DTModelStorage.framework */; };
+		6E8383094A960728830236EC8E1C0EAD /* BaseStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C36570AF7A32FEB34D990BCF4DC0E40 /* BaseStorage.swift */; };
+		6FB8405E4B123D716DE6B3737EF9E817 /* DTTableViewManager+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1385158D9D126859649C6D10D5F6421 /* DTTableViewManager+DataSource.swift */; };
+		7291B507C77C9CB36B488A853BA0A1BE /* RuntimeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8896610026BE52EE2A5F764CE0F6C54 /* RuntimeHelper.swift */; };
+		7A206D29278A4FB4BFA2F32B6C2F7E52 /* CoreDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BF9F5CD4C9565EF87592589F9D870 /* CoreDataStorage.swift */; };
+		8654044DD2B330273B7DB1A50CAA277B /* ModelTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFC0D8FD2A53BD0542884783BF5E6A0 /* ModelTransfer.swift */; };
+		8DF6253FC948FBA8FD27ED8BADDD5420 /* DTModelStorage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F008638EB743597C2526CF42F227F /* DTModelStorage-dummy.m */; };
+		94D53B3209A7E827EA94FD4BF45979DB /* AccumulationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ECCC477E6F29BC582F38FC8550CD76 /* AccumulationStrategy.swift */; };
+		9516F0BA9F1E4C50AB1EDE9EF5D1A510 /* SectionModel+HeaderFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F246DC1052D7BED99C6F43AC4E6F07 /* SectionModel+HeaderFooter.swift */; };
+		9D9CA8C763664E941B2C316D7902BFCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B931BEFBD07F75597B1805E95A34FC3D /* UIKit.framework */; };
+		A1A8C8DD0D787CB4CD65C60346835086 /* DTTableViewDropPlaceholderContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CD5BD8E3E6159D3D2162A73A716159 /* DTTableViewDropPlaceholderContext.swift */; };
+		A4AF57726F724C1946167884F7F7DAA5 /* DTTableViewManager+Drag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824C7C2D7EEF543C14C6B7195836568E /* DTTableViewManager+Drag.swift */; };
+		A76533E05E7D02BCE7DC5243A00C9BC5 /* DTTableViewManager+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E5DD3A3750CE016FCE7D2D63FB3168 /* DTTableViewManager+Delegate.swift */; };
+		AE091587BB3A99D2F6C276D80CBD041E /* DTTableViewManager+Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F800A6E7AAF39ECC468F0FAC8B9465FC /* DTTableViewManager+Registration.swift */; };
+		B2F148D6385FE18F2DD644B3EF02A0E6 /* Pods-BaseViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F700C7EFFD27A90D194BB0740090431C /* Pods-BaseViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B582C12C596FCB5B3289D8051A77121C /* StorageProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE430B253658FF6226F468EB9CF4268 /* StorageProtocols.swift */; };
+		C1C42854CDB71CC11ACD695A95736BD8 /* EventReactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F6D8D4067453765BCBF34E0BCA2B8E /* EventReactions.swift */; };
+		C2ADDE2AAFAF48B60F3D74C3FDFA410F /* UINib+Existance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC97EF25697E00EB2CA65E4C653C58 /* UINib+Existance.swift */; };
+		C38E5D21595EFCCE84D217547C27983F /* SectionProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3135FDF478BB9E7BDA2AFFBE74B64096 /* SectionProtocols.swift */; };
+		DCF9AEC9E93E0FFB579D4B460801E30F /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCA7F5C0B1ABBF3ECC4DF81EE9B5AB5 /* MemoryStorage.swift */; };
+		E6DC3AEFC0774CFEB60A6FC58F5A0C82 /* TableViewUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E8389B37BB1BC713DB222F72FE41DE /* TableViewUpdater.swift */; };
+		E76A3B43F92884E6416DA2F165883E33 /* StorageUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02A5A71C5DD2E8CFAD9B5C4D697F59 /* StorageUpdate.swift */; };
+		EA978FAC95A658755DCE3C5C2125E51F /* DTTableViewDropDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B52AC94446D943AEEDA1B64D438EE4 /* DTTableViewDropDelegate.swift */; };
+		ECD25429DD347B8BC29830777B4FF508 /* DTTableViewDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1163DA06E060235AA224858233DA3E /* DTTableViewDelegateWrapper.swift */; };
+		F1362BABFD942D9E2516DE0F48576239 /* UIView+XibLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D1932735D8C802F525F5B52B8DDC3 /* UIView+XibLoading.swift */; };
+		F1CEE2056F630D0D093D8CE9EE0FC20A /* SingleSectionStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C80FF21F4A3373C2222688E3BABA2 /* SingleSectionStorage.swift */; };
+		FDEC291E4B0A4538A0A3BB1B0A0DE76E /* DTTableViewDragDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6642D8ABD876993013FE7C58234EA64B /* DTTableViewDragDelegate.swift */; };
+		FDFD1946065CC8C487DD00C89AC77A79 /* MemoryStorage+UpdateWithoutAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE5C4DAD956F0E6AC94C49FA1EC0AD /* MemoryStorage+UpdateWithoutAnimations.swift */; };
+		FF04585119C37F599A560C0C4E3F1EC9 /* TableViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCAADACAAAB66170A3D0CEC018E237 /* TableViewFactory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		795E0EAFDF738FF5BB6C693D44FBC79A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1F697AE01D68453B8B3B86DA9E42200;
+			remoteInfo = DTModelStorage;
+		};
+		8F6C0378420236E8BB5E9897B374299D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1F697AE01D68453B8B3B86DA9E42200;
+			remoteInfo = DTModelStorage;
+		};
+		B30C268589DE4FC6A26FF3214B950EE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF3490B4B0DD7F07469ADEE907B9E59;
+			remoteInfo = DTTableViewManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017360DB69E99A30D1D9C25721D1EC64 /* DTTableViewManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTTableViewManager-prefix.pch"; sourceTree = "<group>"; };
+		03CD5BD8E3E6159D3D2162A73A716159 /* DTTableViewDropPlaceholderContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTTableViewDropPlaceholderContext.swift; path = Sources/DTTableViewManager/DTTableViewDropPlaceholderContext.swift; sourceTree = "<group>"; };
+		08F246DC1052D7BED99C6F43AC4E6F07 /* SectionModel+HeaderFooter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SectionModel+HeaderFooter.swift"; path = "Sources/DTTableViewManager/SectionModel+HeaderFooter.swift"; sourceTree = "<group>"; };
+		0E02A5A71C5DD2E8CFAD9B5C4D697F59 /* StorageUpdate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StorageUpdate.swift; path = Sources/DTModelStorage/StorageUpdate.swift; sourceTree = "<group>"; };
+		159A24472BD6CE10500D6909B6158971 /* DTTableViewManager+Drop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DTTableViewManager+Drop.swift"; path = "Sources/DTTableViewManager/DTTableViewManager+Drop.swift"; sourceTree = "<group>"; };
+		2D2671FA1D8D5461F1F61B05C828D30E /* DTModelStorage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTModelStorage.xcconfig; sourceTree = "<group>"; };
+		2FBCAADACAAAB66170A3D0CEC018E237 /* TableViewFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewFactory.swift; path = Sources/DTTableViewManager/TableViewFactory.swift; sourceTree = "<group>"; };
+		3135FDF478BB9E7BDA2AFFBE74B64096 /* SectionProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionProtocols.swift; path = Sources/DTModelStorage/SectionProtocols.swift; sourceTree = "<group>"; };
+		32A1831C1EDCFF543012C1C3B7EF8DF6 /* SingleSectionDiffing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleSectionDiffing.swift; path = Sources/DTModelStorage/SingleSectionDiffing.swift; sourceTree = "<group>"; };
+		38E99F32160A3A4607E5E47FFD852EBC /* Pods-BaseViewController-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BaseViewController-frameworks.sh"; sourceTree = "<group>"; };
+		3CAE5C4DAD956F0E6AC94C49FA1EC0AD /* MemoryStorage+UpdateWithoutAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MemoryStorage+UpdateWithoutAnimations.swift"; path = "Sources/DTModelStorage/MemoryStorage+UpdateWithoutAnimations.swift"; sourceTree = "<group>"; };
+		3E1E338C0ED9DCCDD1AAF5E0E8424E8A /* SectionModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionModel.swift; path = Sources/DTModelStorage/SectionModel.swift; sourceTree = "<group>"; };
+		3EE8559E4C53EB8D034D8F2506D94F0E /* DTModelStorage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTModelStorage-umbrella.h"; sourceTree = "<group>"; };
+		436BF9F5CD4C9565EF87592589F9D870 /* CoreDataStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataStorage.swift; path = Sources/DTModelStorage/CoreDataStorage.swift; sourceTree = "<group>"; };
+		4D2F008638EB743597C2526CF42F227F /* DTModelStorage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTModelStorage-dummy.m"; sourceTree = "<group>"; };
+		4F1163DA06E060235AA224858233DA3E /* DTTableViewDelegateWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTTableViewDelegateWrapper.swift; path = Sources/DTTableViewManager/DTTableViewDelegateWrapper.swift; sourceTree = "<group>"; };
+		520C80FF21F4A3373C2222688E3BABA2 /* SingleSectionStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleSectionStorage.swift; path = Sources/DTModelStorage/SingleSectionStorage.swift; sourceTree = "<group>"; };
+		5681FE9C8DEBBF42703AEA08E85A6B45 /* DTModelStorage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DTModelStorage-Info.plist"; sourceTree = "<group>"; };
+		6642D8ABD876993013FE7C58234EA64B /* DTTableViewDragDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTTableViewDragDelegate.swift; path = Sources/DTTableViewManager/DTTableViewDragDelegate.swift; sourceTree = "<group>"; };
+		6742C25A4C55099598C222F1C113734D /* DTTableViewManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTTableViewManager.swift; path = Sources/DTTableViewManager/DTTableViewManager.swift; sourceTree = "<group>"; };
+		68242B60C14E98160C1E55A16312099F /* DTTableViewManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTTableViewManager-umbrella.h"; sourceTree = "<group>"; };
+		6AFC0D8FD2A53BD0542884783BF5E6A0 /* ModelTransfer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModelTransfer.swift; path = Sources/DTModelStorage/ModelTransfer.swift; sourceTree = "<group>"; };
+		6B9D1932735D8C802F525F5B52B8DDC3 /* UIView+XibLoading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+XibLoading.swift"; path = "Sources/DTTableViewManager/UIView+XibLoading.swift"; sourceTree = "<group>"; };
+		6E564AF94F696921802AAEE9C26BD1AC /* Pods-BaseViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BaseViewController.modulemap"; sourceTree = "<group>"; };
+		6FDA0B735AD5A96670D688F9FA5BDC48 /* Pods-BaseViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BaseViewController-Info.plist"; sourceTree = "<group>"; };
+		70E5DD3A3750CE016FCE7D2D63FB3168 /* DTTableViewManager+Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DTTableViewManager+Delegate.swift"; path = "Sources/DTTableViewManager/DTTableViewManager+Delegate.swift"; sourceTree = "<group>"; };
+		76B52AC94446D943AEEDA1B64D438EE4 /* DTTableViewDropDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTTableViewDropDelegate.swift; path = Sources/DTTableViewManager/DTTableViewDropDelegate.swift; sourceTree = "<group>"; };
+		78DB01ED12926D007D849F4828E0D887 /* DTTableViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTTableViewDelegate.swift; path = Sources/DTTableViewManager/DTTableViewDelegate.swift; sourceTree = "<group>"; };
+		7C36570AF7A32FEB34D990BCF4DC0E40 /* BaseStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseStorage.swift; path = Sources/DTModelStorage/BaseStorage.swift; sourceTree = "<group>"; };
+		824C7C2D7EEF543C14C6B7195836568E /* DTTableViewManager+Drag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DTTableViewManager+Drag.swift"; path = "Sources/DTTableViewManager/DTTableViewManager+Drag.swift"; sourceTree = "<group>"; };
+		82787B52A389F677F2FF0227D90CCD7B /* Pods-BaseViewController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BaseViewController-acknowledgements.plist"; sourceTree = "<group>"; };
+		84C04D5E0319FF6CE4CC87F7FAAB2200 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		86A9CBBC8333ADE65CD5F6DAFE95B10B /* DTTableViewManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTTableViewManager.xcconfig; sourceTree = "<group>"; };
+		8772965DEE5B6784B2D26B397022BFB4 /* DTTableViewManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTTableViewManager-dummy.m"; sourceTree = "<group>"; };
+		8A453DB4663B911B5EF9E07D1E56861F /* Pods-BaseViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BaseViewController.release.xcconfig"; sourceTree = "<group>"; };
+		8D7F44C29F5C323A93E174DED4DDB254 /* DTModelStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DTModelStorage.framework; path = DTModelStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F02B04352CD695AFF863047900E4C21 /* TableViewConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewConfiguration.swift; path = Sources/DTTableViewManager/TableViewConfiguration.swift; sourceTree = "<group>"; };
+		90E8389B37BB1BC713DB222F72FE41DE /* TableViewUpdater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewUpdater.swift; path = Sources/DTTableViewManager/TableViewUpdater.swift; sourceTree = "<group>"; };
+		97DC97EF25697E00EB2CA65E4C653C58 /* UINib+Existance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINib+Existance.swift"; path = "Sources/DTModelStorage/UINib+Existance.swift"; sourceTree = "<group>"; };
+		98D0C1647626F2772B8DD90DAD7A77E8 /* Pods-BaseViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BaseViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		98E5043DF10D76558F1CCF55C9569C4B /* DTModelStorage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTModelStorage-prefix.pch"; sourceTree = "<group>"; };
+		9BF4908CD5C094BE0FCF6BA28A9FCBE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9D43575AEDAE651820A3DE8DF517A56C /* BackwardsCompatibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackwardsCompatibility.swift; path = Sources/DTTableViewManager/BackwardsCompatibility.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A076ED6E3C75D009316EEC7E55F2810B /* DTTableViewManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DTTableViewManager.framework; path = DTTableViewManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F6D8D4067453765BCBF34E0BCA2B8E /* EventReactions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventReactions.swift; path = Sources/DTModelStorage/EventReactions.swift; sourceTree = "<group>"; };
+		A8896610026BE52EE2A5F764CE0F6C54 /* RuntimeHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeHelper.swift; path = Sources/DTModelStorage/RuntimeHelper.swift; sourceTree = "<group>"; };
+		AF34A84E50BBEE8A9E3712A3B3B4D192 /* DTTableViewManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DTTableViewManager.modulemap; sourceTree = "<group>"; };
+		B931BEFBD07F75597B1805E95A34FC3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C2C5E0E4D4F86197D583A46B43B5EF0C /* DTTableViewManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DTTableViewManager-Info.plist"; sourceTree = "<group>"; };
+		C3DCE7136596A5D1CDAD88D43F72B778 /* DTModelStorage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DTModelStorage.modulemap; sourceTree = "<group>"; };
+		D1385158D9D126859649C6D10D5F6421 /* DTTableViewManager+DataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DTTableViewManager+DataSource.swift"; path = "Sources/DTTableViewManager/DTTableViewManager+DataSource.swift"; sourceTree = "<group>"; };
+		D9AA97BAF62BE704163B321C229473BD /* ViewModelMapping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewModelMapping.swift; path = Sources/DTModelStorage/ViewModelMapping.swift; sourceTree = "<group>"; };
+		DCB335FF937556AB11ADA7839BB71F02 /* DTTableViewManagerAnomalyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTTableViewManagerAnomalyHandler.swift; path = Sources/DTTableViewManager/DTTableViewManagerAnomalyHandler.swift; sourceTree = "<group>"; };
+		E0C06F85A95F796FDEF1716B2ED90602 /* DTModelStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DTModelStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E389F491346D294CDDAFF4BA2FA39D0F /* Pods_BaseViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BaseViewController.framework; path = "Pods-BaseViewController.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E437D9CD7624FE3A2D7B50AA2EE9E535 /* Section.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Sources/DTModelStorage/Section.swift; sourceTree = "<group>"; };
+		E57E3F120DECF0749A8F647CF83B0C8F /* DTTableViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTTableViewDataSource.swift; path = Sources/DTTableViewManager/DTTableViewDataSource.swift; sourceTree = "<group>"; };
+		F700C7EFFD27A90D194BB0740090431C /* Pods-BaseViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BaseViewController-umbrella.h"; sourceTree = "<group>"; };
+		F7AF6EAD916FD423B460AF106F3A1A15 /* Pods-BaseViewController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BaseViewController-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F800A6E7AAF39ECC468F0FAC8B9465FC /* DTTableViewManager+Registration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DTTableViewManager+Registration.swift"; path = "Sources/DTTableViewManager/DTTableViewManager+Registration.swift"; sourceTree = "<group>"; };
+		F8ECCC477E6F29BC582F38FC8550CD76 /* AccumulationStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccumulationStrategy.swift; path = Sources/DTModelStorage/AccumulationStrategy.swift; sourceTree = "<group>"; };
+		FA4C13CFECA1F565207B6CBBE58EC4C1 /* AnomalyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnomalyHandler.swift; path = Sources/DTModelStorage/AnomalyHandler.swift; sourceTree = "<group>"; };
+		FAE430B253658FF6226F468EB9CF4268 /* StorageProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StorageProtocols.swift; path = Sources/DTModelStorage/StorageProtocols.swift; sourceTree = "<group>"; };
+		FBED9CDE1EE6C09512F9088266C5C825 /* Pods-BaseViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BaseViewController-dummy.m"; sourceTree = "<group>"; };
+		FDCA7F5C0B1ABBF3ECC4DF81EE9B5AB5 /* MemoryStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryStorage.swift; path = Sources/DTModelStorage/MemoryStorage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0117169A14836C3BF7C663AEC932B8B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EC56AFE1001F21E33DBE62875DF269 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4436753AABFC2E07430466F4FB955300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B528A135D6F271422CB14E2D5DEA34 /* CoreData.framework in Frameworks */,
+				4E35EEC24FCCF1B51681AC1361C50F56 /* Foundation.framework in Frameworks */,
+				28601338C3CACC461535C7249A20AE41 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0ED5447D4837187FC65821467819046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE55067AC853C860A60068BB4176D04 /* DTModelStorage.framework in Frameworks */,
+				687E65A78B098EA8AE0B7764EA26ADDC /* Foundation.framework in Frameworks */,
+				9D9CA8C763664E941B2C316D7902BFCB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08C70A4E8F0AD3171ED724EB3BE1BFB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF34A84E50BBEE8A9E3712A3B3B4D192 /* DTTableViewManager.modulemap */,
+				86A9CBBC8333ADE65CD5F6DAFE95B10B /* DTTableViewManager.xcconfig */,
+				8772965DEE5B6784B2D26B397022BFB4 /* DTTableViewManager-dummy.m */,
+				C2C5E0E4D4F86197D583A46B43B5EF0C /* DTTableViewManager-Info.plist */,
+				017360DB69E99A30D1D9C25721D1EC64 /* DTTableViewManager-prefix.pch */,
+				68242B60C14E98160C1E55A16312099F /* DTTableViewManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DTTableViewManager";
+			sourceTree = "<group>";
+		};
+		4090F1DBEA2D46F2F1CC5F952CB853BD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F8ECCC477E6F29BC582F38FC8550CD76 /* AccumulationStrategy.swift */,
+				FA4C13CFECA1F565207B6CBBE58EC4C1 /* AnomalyHandler.swift */,
+				7C36570AF7A32FEB34D990BCF4DC0E40 /* BaseStorage.swift */,
+				436BF9F5CD4C9565EF87592589F9D870 /* CoreDataStorage.swift */,
+				A5F6D8D4067453765BCBF34E0BCA2B8E /* EventReactions.swift */,
+				FDCA7F5C0B1ABBF3ECC4DF81EE9B5AB5 /* MemoryStorage.swift */,
+				3CAE5C4DAD956F0E6AC94C49FA1EC0AD /* MemoryStorage+UpdateWithoutAnimations.swift */,
+				6AFC0D8FD2A53BD0542884783BF5E6A0 /* ModelTransfer.swift */,
+				A8896610026BE52EE2A5F764CE0F6C54 /* RuntimeHelper.swift */,
+				E437D9CD7624FE3A2D7B50AA2EE9E535 /* Section.swift */,
+				3E1E338C0ED9DCCDD1AAF5E0E8424E8A /* SectionModel.swift */,
+				3135FDF478BB9E7BDA2AFFBE74B64096 /* SectionProtocols.swift */,
+				32A1831C1EDCFF543012C1C3B7EF8DF6 /* SingleSectionDiffing.swift */,
+				520C80FF21F4A3373C2222688E3BABA2 /* SingleSectionStorage.swift */,
+				FAE430B253658FF6226F468EB9CF4268 /* StorageProtocols.swift */,
+				0E02A5A71C5DD2E8CFAD9B5C4D697F59 /* StorageUpdate.swift */,
+				97DC97EF25697E00EB2CA65E4C653C58 /* UINib+Existance.swift */,
+				D9AA97BAF62BE704163B321C229473BD /* ViewModelMapping.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		4FB213C563725FAA2EF672D5A23BED98 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B884606B0BC3ABE36211301B7397716 /* Pods-BaseViewController */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		625DBE92CF698C649EE613F5612D18C6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				84C04D5E0319FF6CE4CC87F7FAAB2200 /* CoreData.framework */,
+				9BF4908CD5C094BE0FCF6BA28A9FCBE3 /* Foundation.framework */,
+				B931BEFBD07F75597B1805E95A34FC3D /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62F2431A2EBF728137BD12F22FBEF820 /* DTTableViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				9D43575AEDAE651820A3DE8DF517A56C /* BackwardsCompatibility.swift */,
+				E57E3F120DECF0749A8F647CF83B0C8F /* DTTableViewDataSource.swift */,
+				78DB01ED12926D007D849F4828E0D887 /* DTTableViewDelegate.swift */,
+				4F1163DA06E060235AA224858233DA3E /* DTTableViewDelegateWrapper.swift */,
+				6642D8ABD876993013FE7C58234EA64B /* DTTableViewDragDelegate.swift */,
+				76B52AC94446D943AEEDA1B64D438EE4 /* DTTableViewDropDelegate.swift */,
+				03CD5BD8E3E6159D3D2162A73A716159 /* DTTableViewDropPlaceholderContext.swift */,
+				6742C25A4C55099598C222F1C113734D /* DTTableViewManager.swift */,
+				D1385158D9D126859649C6D10D5F6421 /* DTTableViewManager+DataSource.swift */,
+				70E5DD3A3750CE016FCE7D2D63FB3168 /* DTTableViewManager+Delegate.swift */,
+				824C7C2D7EEF543C14C6B7195836568E /* DTTableViewManager+Drag.swift */,
+				159A24472BD6CE10500D6909B6158971 /* DTTableViewManager+Drop.swift */,
+				F800A6E7AAF39ECC468F0FAC8B9465FC /* DTTableViewManager+Registration.swift */,
+				DCB335FF937556AB11ADA7839BB71F02 /* DTTableViewManagerAnomalyHandler.swift */,
+				08F246DC1052D7BED99C6F43AC4E6F07 /* SectionModel+HeaderFooter.swift */,
+				8F02B04352CD695AFF863047900E4C21 /* TableViewConfiguration.swift */,
+				2FBCAADACAAAB66170A3D0CEC018E237 /* TableViewFactory.swift */,
+				90E8389B37BB1BC713DB222F72FE41DE /* TableViewUpdater.swift */,
+				6B9D1932735D8C802F525F5B52B8DDC3 /* UIView+XibLoading.swift */,
+				08C70A4E8F0AD3171ED724EB3BE1BFB3 /* Support Files */,
+			);
+			name = DTTableViewManager;
+			path = DTTableViewManager;
+			sourceTree = "<group>";
+		};
+		711BE2CFB7DD988D3C4DDF38F1E4AEF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0C06F85A95F796FDEF1716B2ED90602 /* DTModelStorage.framework */,
+				625DBE92CF698C649EE613F5612D18C6 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B884606B0BC3ABE36211301B7397716 /* Pods-BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6E564AF94F696921802AAEE9C26BD1AC /* Pods-BaseViewController.modulemap */,
+				F7AF6EAD916FD423B460AF106F3A1A15 /* Pods-BaseViewController-acknowledgements.markdown */,
+				82787B52A389F677F2FF0227D90CCD7B /* Pods-BaseViewController-acknowledgements.plist */,
+				FBED9CDE1EE6C09512F9088266C5C825 /* Pods-BaseViewController-dummy.m */,
+				38E99F32160A3A4607E5E47FFD852EBC /* Pods-BaseViewController-frameworks.sh */,
+				6FDA0B735AD5A96670D688F9FA5BDC48 /* Pods-BaseViewController-Info.plist */,
+				F700C7EFFD27A90D194BB0740090431C /* Pods-BaseViewController-umbrella.h */,
+				98D0C1647626F2772B8DD90DAD7A77E8 /* Pods-BaseViewController.debug.xcconfig */,
+				8A453DB4663B911B5EF9E07D1E56861F /* Pods-BaseViewController.release.xcconfig */,
+			);
+			name = "Pods-BaseViewController";
+			path = "Target Support Files/Pods-BaseViewController";
+			sourceTree = "<group>";
+		};
+		832A281EB62FB81C4589FE8673581961 /* DTModelStorage */ = {
+			isa = PBXGroup;
+			children = (
+				4090F1DBEA2D46F2F1CC5F952CB853BD /* Core */,
+				AE94C37CCD30C074E6C8AF5796DF4AD1 /* Support Files */,
+			);
+			name = DTModelStorage;
+			path = DTModelStorage;
+			sourceTree = "<group>";
+		};
+		9E5A57E08F238A59CA8021F58A79CA7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D7F44C29F5C323A93E174DED4DDB254 /* DTModelStorage.framework */,
+				A076ED6E3C75D009316EEC7E55F2810B /* DTTableViewManager.framework */,
+				E389F491346D294CDDAFF4BA2FA39D0F /* Pods_BaseViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE94C37CCD30C074E6C8AF5796DF4AD1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3DCE7136596A5D1CDAD88D43F72B778 /* DTModelStorage.modulemap */,
+				2D2671FA1D8D5461F1F61B05C828D30E /* DTModelStorage.xcconfig */,
+				4D2F008638EB743597C2526CF42F227F /* DTModelStorage-dummy.m */,
+				5681FE9C8DEBBF42703AEA08E85A6B45 /* DTModelStorage-Info.plist */,
+				98E5043DF10D76558F1CCF55C9569C4B /* DTModelStorage-prefix.pch */,
+				3EE8559E4C53EB8D034D8F2506D94F0E /* DTModelStorage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DTModelStorage";
+			sourceTree = "<group>";
+		};
+		CCE3D4960A71A7001DFBB03C8839BE52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				832A281EB62FB81C4589FE8673581961 /* DTModelStorage */,
+				62F2431A2EBF728137BD12F22FBEF820 /* DTTableViewManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				711BE2CFB7DD988D3C4DDF38F1E4AEF1 /* Frameworks */,
+				CCE3D4960A71A7001DFBB03C8839BE52 /* Pods */,
+				9E5A57E08F238A59CA8021F58A79CA7E /* Products */,
+				4FB213C563725FAA2EF672D5A23BED98 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F65AA1CC3400B4964ACDCAA64636EDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28705A861327CEAA3B3BCA2808999001 /* DTTableViewManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2172A6D6732F1DB1808BF5E3A2C9A99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F148D6385FE18F2DD644B3EF02A0E6 /* Pods-BaseViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CD4D735B1FBE7E25F161AA3E262DBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0080EE14ACF94835F134BE2EA5468C06 /* DTModelStorage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3EF3490B4B0DD7F07469ADEE907B9E59 /* DTTableViewManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B04DF0FC16DEE904DB13F2593AF238C /* Build configuration list for PBXNativeTarget "DTTableViewManager" */;
+			buildPhases = (
+				3F65AA1CC3400B4964ACDCAA64636EDA /* Headers */,
+				8741E575B4C54AEA99424D9F203A1C8A /* Sources */,
+				C0ED5447D4837187FC65821467819046 /* Frameworks */,
+				C9297BBF95A4EF8CEE0F2B6FDE40D8D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50F28F450AE9738306C07A60579F0161 /* PBXTargetDependency */,
+			);
+			name = DTTableViewManager;
+			productName = DTTableViewManager;
+			productReference = A076ED6E3C75D009316EEC7E55F2810B /* DTTableViewManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		86518708374A58EDEEDE531D1D0730BB /* Pods-BaseViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6366F571BF66007F14EDD145A3E776 /* Build configuration list for PBXNativeTarget "Pods-BaseViewController" */;
+			buildPhases = (
+				D2172A6D6732F1DB1808BF5E3A2C9A99 /* Headers */,
+				273E85D686C705FBD793020D8C6CECA1 /* Sources */,
+				0117169A14836C3BF7C663AEC932B8B5 /* Frameworks */,
+				0D89FE680EBCCA6337FB5F63BD0DC8F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4895D343773420D2EB2544FFDCAE7D69 /* PBXTargetDependency */,
+				62EFA3BF34A008C43D6151D96420741C /* PBXTargetDependency */,
+			);
+			name = "Pods-BaseViewController";
+			productName = "Pods-BaseViewController";
+			productReference = E389F491346D294CDDAFF4BA2FA39D0F /* Pods_BaseViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1F697AE01D68453B8B3B86DA9E42200 /* DTModelStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32C1D305C356598F471046C5D679321 /* Build configuration list for PBXNativeTarget "DTModelStorage" */;
+			buildPhases = (
+				E1CD4D735B1FBE7E25F161AA3E262DBF /* Headers */,
+				4979F782CCAAE1AC6CF5F12F1CF5356C /* Sources */,
+				4436753AABFC2E07430466F4FB955300 /* Frameworks */,
+				88C6A273EDB3B7D06C8F6BDA62E99431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTModelStorage;
+			productName = DTModelStorage;
+			productReference = 8D7F44C29F5C323A93E174DED4DDB254 /* DTModelStorage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9E5A57E08F238A59CA8021F58A79CA7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1F697AE01D68453B8B3B86DA9E42200 /* DTModelStorage */,
+				3EF3490B4B0DD7F07469ADEE907B9E59 /* DTTableViewManager */,
+				86518708374A58EDEEDE531D1D0730BB /* Pods-BaseViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D89FE680EBCCA6337FB5F63BD0DC8F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C6A273EDB3B7D06C8F6BDA62E99431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9297BBF95A4EF8CEE0F2B6FDE40D8D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		273E85D686C705FBD793020D8C6CECA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F54D4B02135E4D94E8F28CBD9FC999A /* Pods-BaseViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4979F782CCAAE1AC6CF5F12F1CF5356C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D53B3209A7E827EA94FD4BF45979DB /* AccumulationStrategy.swift in Sources */,
+				1477591D04921563C981ADF3BD449D7D /* AnomalyHandler.swift in Sources */,
+				6E8383094A960728830236EC8E1C0EAD /* BaseStorage.swift in Sources */,
+				7A206D29278A4FB4BFA2F32B6C2F7E52 /* CoreDataStorage.swift in Sources */,
+				8DF6253FC948FBA8FD27ED8BADDD5420 /* DTModelStorage-dummy.m in Sources */,
+				C1C42854CDB71CC11ACD695A95736BD8 /* EventReactions.swift in Sources */,
+				FDFD1946065CC8C487DD00C89AC77A79 /* MemoryStorage+UpdateWithoutAnimations.swift in Sources */,
+				DCF9AEC9E93E0FFB579D4B460801E30F /* MemoryStorage.swift in Sources */,
+				8654044DD2B330273B7DB1A50CAA277B /* ModelTransfer.swift in Sources */,
+				7291B507C77C9CB36B488A853BA0A1BE /* RuntimeHelper.swift in Sources */,
+				2DA2800F42947F8A30370DCA897C269F /* Section.swift in Sources */,
+				32357F6B2004CD0630F5984AC6102BA6 /* SectionModel.swift in Sources */,
+				C38E5D21595EFCCE84D217547C27983F /* SectionProtocols.swift in Sources */,
+				023AEC479D85096AA75704E33339FEB7 /* SingleSectionDiffing.swift in Sources */,
+				F1CEE2056F630D0D093D8CE9EE0FC20A /* SingleSectionStorage.swift in Sources */,
+				B582C12C596FCB5B3289D8051A77121C /* StorageProtocols.swift in Sources */,
+				E76A3B43F92884E6416DA2F165883E33 /* StorageUpdate.swift in Sources */,
+				C2ADDE2AAFAF48B60F3D74C3FDFA410F /* UINib+Existance.swift in Sources */,
+				3B76460A6AD287DCA083E2945D916C2D /* ViewModelMapping.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8741E575B4C54AEA99424D9F203A1C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CA5BF9A51A1ED8CD31ECA59C51EEC1 /* BackwardsCompatibility.swift in Sources */,
+				50DB12AA4FBF9B7F75937D7E51CC18E2 /* DTTableViewDataSource.swift in Sources */,
+				18AB341395D72EBE5E1CD1C72278B311 /* DTTableViewDelegate.swift in Sources */,
+				ECD25429DD347B8BC29830777B4FF508 /* DTTableViewDelegateWrapper.swift in Sources */,
+				FDEC291E4B0A4538A0A3BB1B0A0DE76E /* DTTableViewDragDelegate.swift in Sources */,
+				EA978FAC95A658755DCE3C5C2125E51F /* DTTableViewDropDelegate.swift in Sources */,
+				A1A8C8DD0D787CB4CD65C60346835086 /* DTTableViewDropPlaceholderContext.swift in Sources */,
+				6FB8405E4B123D716DE6B3737EF9E817 /* DTTableViewManager+DataSource.swift in Sources */,
+				A76533E05E7D02BCE7DC5243A00C9BC5 /* DTTableViewManager+Delegate.swift in Sources */,
+				A4AF57726F724C1946167884F7F7DAA5 /* DTTableViewManager+Drag.swift in Sources */,
+				67C84074BBD96D142D0A6A729FD98B90 /* DTTableViewManager+Drop.swift in Sources */,
+				AE091587BB3A99D2F6C276D80CBD041E /* DTTableViewManager+Registration.swift in Sources */,
+				3C476D99E55A4DFF5DBC1A0178578B69 /* DTTableViewManager-dummy.m in Sources */,
+				51E71AA206C7550F066C7833EBB03F08 /* DTTableViewManager.swift in Sources */,
+				15D12B4DDF328D45E7B153F01011F02F /* DTTableViewManagerAnomalyHandler.swift in Sources */,
+				9516F0BA9F1E4C50AB1EDE9EF5D1A510 /* SectionModel+HeaderFooter.swift in Sources */,
+				35EBFDE9FB81014D6400E8A99B769182 /* TableViewConfiguration.swift in Sources */,
+				FF04585119C37F599A560C0C4E3F1EC9 /* TableViewFactory.swift in Sources */,
+				E6DC3AEFC0774CFEB60A6FC58F5A0C82 /* TableViewUpdater.swift in Sources */,
+				F1362BABFD942D9E2516DE0F48576239 /* UIView+XibLoading.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4895D343773420D2EB2544FFDCAE7D69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTModelStorage;
+			target = E1F697AE01D68453B8B3B86DA9E42200 /* DTModelStorage */;
+			targetProxy = 8F6C0378420236E8BB5E9897B374299D /* PBXContainerItemProxy */;
+		};
+		50F28F450AE9738306C07A60579F0161 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTModelStorage;
+			target = E1F697AE01D68453B8B3B86DA9E42200 /* DTModelStorage */;
+			targetProxy = 795E0EAFDF738FF5BB6C693D44FBC79A /* PBXContainerItemProxy */;
+		};
+		62EFA3BF34A008C43D6151D96420741C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTTableViewManager;
+			target = 3EF3490B4B0DD7F07469ADEE907B9E59 /* DTTableViewManager */;
+			targetProxy = B30C268589DE4FC6A26FF3214B950EE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DF836A5D7B541ACF251CDA7B6766556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D2671FA1D8D5461F1F61B05C828D30E /* DTModelStorage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTModelStorage/DTModelStorage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTModelStorage/DTModelStorage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DTModelStorage/DTModelStorage.modulemap";
+				PRODUCT_MODULE_NAME = DTModelStorage;
+				PRODUCT_NAME = DTModelStorage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5AA038CE38D966DE867020C63B350625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86A9CBBC8333ADE65CD5F6DAFE95B10B /* DTTableViewManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTTableViewManager/DTTableViewManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTTableViewManager/DTTableViewManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DTTableViewManager/DTTableViewManager.modulemap";
+				PRODUCT_MODULE_NAME = DTTableViewManager;
+				PRODUCT_NAME = DTTableViewManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		98A771A03C8996B7279620D3769AB21F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86A9CBBC8333ADE65CD5F6DAFE95B10B /* DTTableViewManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTTableViewManager/DTTableViewManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTTableViewManager/DTTableViewManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DTTableViewManager/DTTableViewManager.modulemap";
+				PRODUCT_MODULE_NAME = DTTableViewManager;
+				PRODUCT_NAME = DTTableViewManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BB2465D2C3F58DE86A5FC8996834B575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D2671FA1D8D5461F1F61B05C828D30E /* DTModelStorage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTModelStorage/DTModelStorage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTModelStorage/DTModelStorage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DTModelStorage/DTModelStorage.modulemap";
+				PRODUCT_MODULE_NAME = DTModelStorage;
+				PRODUCT_NAME = DTModelStorage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB994DC8054C52B0743FADB764ACC376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A453DB4663B911B5EF9E07D1E56861F /* Pods-BaseViewController.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BaseViewController/Pods-BaseViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BaseViewController/Pods-BaseViewController.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC806CEA6D0406C8AD97ADC1D26B5EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98D0C1647626F2772B8DD90DAD7A77E8 /* Pods-BaseViewController.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BaseViewController/Pods-BaseViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BaseViewController/Pods-BaseViewController.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B04DF0FC16DEE904DB13F2593AF238C /* Build configuration list for PBXNativeTarget "DTTableViewManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A771A03C8996B7279620D3769AB21F /* Debug */,
+				5AA038CE38D966DE867020C63B350625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
+				A27713CB74E99AF202AADC23200A32F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32C1D305C356598F471046C5D679321 /* Build configuration list for PBXNativeTarget "DTModelStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2465D2C3F58DE86A5FC8996834B575 /* Debug */,
+				0DF836A5D7B541ACF251CDA7B6766556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6366F571BF66007F14EDD145A3E776 /* Build configuration list for PBXNativeTarget "Pods-BaseViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC806CEA6D0406C8AD97ADC1D26B5EE1 /* Debug */,
+				CB994DC8054C52B0743FADB764ACC376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

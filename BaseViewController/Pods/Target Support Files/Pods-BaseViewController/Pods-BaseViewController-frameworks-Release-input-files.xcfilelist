@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-BaseViewController/Pods-BaseViewController-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DTModelStorage/DTModelStorage.framework
+${BUILT_PRODUCTS_DIR}/DTTableViewManager/DTTableViewManager.framework

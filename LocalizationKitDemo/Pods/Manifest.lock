@@ -1,0 +1,27 @@
+PODS:
+  - LocalizationKit (4.2.4):
+    - LocalizationKit/Core (= 4.2.4)
+    - Socket.IO-Client-Swift (~> 13.3.1)
+  - LocalizationKit/Core (4.2.4):
+    - Socket.IO-Client-Swift (~> 13.3.1)
+  - Socket.IO-Client-Swift (13.3.1):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.6)
+
+DEPENDENCIES:
+  - LocalizationKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LocalizationKit
+    - Socket.IO-Client-Swift
+    - Starscream
+
+SPEC CHECKSUMS:
+  LocalizationKit: b95fcf46d9b5e6e29e289e3bd8c0d47cf0a30567
+  Socket.IO-Client-Swift: 79f8f85fa44881838175a20f9bd2c32bef2c9d37
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+
+PODFILE CHECKSUM: 0bccb24b08255d6eccae0e461bbfbc662119f65e
+
+COCOAPODS: 1.5.3

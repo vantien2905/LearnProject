@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TableViewController" customModule="ChatDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="tbChat" destination="YAL-lU-zSi" id="1jX-Cl-Iip"/>
+                <outlet property="tvInput" destination="Hda-e5-hbB" id="ZZs-kT-yDz"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YAL-lU-zSi">
+                    <rect key="frame" x="0.0" y="44" width="414" height="768"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="haj-Vh-70L">
+                    <rect key="frame" x="0.0" y="812" width="414" height="50"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="placeholder" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Hda-e5-hbB">
+                            <rect key="frame" x="5" y="0.0" width="359" height="50"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pRT-jN-pFN">
+                            <rect key="frame" x="369" y="5" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="fsP-cj-vPB"/>
+                                <constraint firstAttribute="height" constant="40" id="pnG-2c-6Te"/>
+                            </constraints>
+                            <state key="normal" title="Send"/>
+                            <connections>
+                                <action selector="btnSendTapped" destination="-1" eventType="touchUpInside" id="7sP-uE-03g"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="pRT-jN-pFN" firstAttribute="centerY" secondItem="haj-Vh-70L" secondAttribute="centerY" id="Gqj-6T-58R"/>
+                        <constraint firstAttribute="trailing" secondItem="pRT-jN-pFN" secondAttribute="trailing" constant="5" id="MW8-4f-RVy"/>
+                        <constraint firstItem="Hda-e5-hbB" firstAttribute="top" secondItem="haj-Vh-70L" secondAttribute="top" id="SUa-JG-3Fz"/>
+                        <constraint firstItem="Hda-e5-hbB" firstAttribute="leading" secondItem="haj-Vh-70L" secondAttribute="leading" constant="5" id="Wph-lX-83e"/>
+                        <constraint firstItem="pRT-jN-pFN" firstAttribute="leading" secondItem="Hda-e5-hbB" secondAttribute="trailing" constant="5" id="jZx-FM-qht"/>
+                        <constraint firstAttribute="bottom" secondItem="Hda-e5-hbB" secondAttribute="bottom" id="l6p-jh-AYm"/>
+                        <constraint firstAttribute="height" constant="50" id="rdd-mL-KEf"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="haj-Vh-70L" secondAttribute="trailing" id="JSl-DN-zav"/>
+                <constraint firstItem="haj-Vh-70L" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Jou-kN-iYo"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="YAL-lU-zSi" secondAttribute="trailing" id="NBx-O4-JXj"/>
+                <constraint firstItem="YAL-lU-zSi" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="gjh-Hc-Tec"/>
+                <constraint firstItem="haj-Vh-70L" firstAttribute="top" secondItem="YAL-lU-zSi" secondAttribute="bottom" id="wFD-Th-3Kd"/>
+                <constraint firstItem="YAL-lU-zSi" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="y9t-mZ-ZWj"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="haj-Vh-70L" secondAttribute="bottom" id="yJd-In-6l7"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
+        </view>
+    </objects>
+</document>

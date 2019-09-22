@@ -1,0 +1,6 @@
+framework module Pods_TestUnZipFile {
+  umbrella header "Pods-TestUnZipFile-umbrella.h"
+
+  export *
+  module * { export * }
+}

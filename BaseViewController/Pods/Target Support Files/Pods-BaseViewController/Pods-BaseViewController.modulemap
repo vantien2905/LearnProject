@@ -1,0 +1,6 @@
+framework module Pods_BaseViewController {
+  umbrella header "Pods-BaseViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

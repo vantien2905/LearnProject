@@ -1,0 +1,22 @@
+PODS:
+  - DTModelStorage (7.4.1):
+    - DTModelStorage/Core (= 7.4.1)
+  - DTModelStorage/Core (7.4.1)
+  - DTTableViewManager (6.6.0):
+    - DTModelStorage (~> 7.4.0)
+
+DEPENDENCIES:
+  - DTTableViewManager
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DTModelStorage
+    - DTTableViewManager
+
+SPEC CHECKSUMS:
+  DTModelStorage: 558e0c60bdc0bb5d37ec8f04772f29641183ddb9
+  DTTableViewManager: df3c7fa735d1b8baac3e547d90f5b02221eda72e
+
+PODFILE CHECKSUM: b57819f951992d7969a794dbaab956ed3a3e5ca6
+
+COCOAPODS: 1.7.5

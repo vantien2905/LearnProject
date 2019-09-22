@@ -1,0 +1,16 @@
+PODS:
+  - TGPControls (5.1.0)
+
+DEPENDENCIES:
+  - TGPControls
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TGPControls
+
+SPEC CHECKSUMS:
+  TGPControls: 52c0770bee9c9aee364f1559cc627fc01ea5e8b2
+
+PODFILE CHECKSUM: 1ead48d19a0750b5fb8d6184fd91553f213b9f18
+
+COCOAPODS: 1.5.3

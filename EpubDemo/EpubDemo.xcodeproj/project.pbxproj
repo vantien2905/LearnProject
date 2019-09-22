@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B322889B22BCC5AB00E9D610 /* Pods_EpubDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D09E1E7601C9B584537878D /* Pods_EpubDemo.framework */; };
+		B322889C22BCC5AB00E9D610 /* Pods_EpubDemo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6D09E1E7601C9B584537878D /* Pods_EpubDemo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B32288C722BCD4F100E9D610 /* bogia.mobi in Resources */ = {isa = PBXBuildFile; fileRef = B32288C622BCD4F100E9D610 /* bogia.mobi */; };
+		B3408D8422B8C39200B87193 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3408D8322B8C39200B87193 /* AppDelegate.swift */; };
+		B3408D8B22B8C39400B87193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3408D8A22B8C39400B87193 /* Assets.xcassets */; };
+		B3408D8E22B8C39400B87193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3408D8C22B8C39400B87193 /* LaunchScreen.storyboard */; };
+		B3408D9C22B8CA9E00B87193 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3408D9A22B8CA9E00B87193 /* TestViewController.swift */; };
+		B3408D9D22B8CA9E00B87193 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3408D9B22B8CA9E00B87193 /* TestViewController.xib */; };
+		B3408D9E22B8D07E00B87193 /* mackethienha.epub in Resources */ = {isa = PBXBuildFile; fileRef = B3408D9522B8C62D00B87193 /* mackethienha.epub */; };
+		B3408D9F22B8D08100B87193 /* The Silver Chair.epub in Resources */ = {isa = PBXBuildFile; fileRef = B3408D9822B8C8E000B87193 /* The Silver Chair.epub */; };
+		B3408DA022B8D08400B87193 /* The Adventures Of Sherlock Holmes - Adventure I.epub in Resources */ = {isa = PBXBuildFile; fileRef = B3408D9722B8C8E000B87193 /* The Adventures Of Sherlock Holmes - Adventure I.epub */; };
+		C49BA343D6617DBD0C342BDA /* Pods_EpubDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D09E1E7601C9B584537878D /* Pods_EpubDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B322889D22BCC5AB00E9D610 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B322889C22BCC5AB00E9D610 /* Pods_EpubDemo.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F7E4433FD6AE68D09928740 /* Pods-EpubDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpubDemo.debug.xcconfig"; path = "Target Support Files/Pods-EpubDemo/Pods-EpubDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6D09E1E7601C9B584537878D /* Pods_EpubDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EpubDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32288C622BCD4F100E9D610 /* bogia.mobi */ = {isa = PBXFileReference; lastKnownFileType = file; path = bogia.mobi; sourceTree = "<group>"; };
+		B3408D8022B8C39200B87193 /* EpubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpubDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3408D8322B8C39200B87193 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3408D8A22B8C39400B87193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3408D8D22B8C39400B87193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3408D8F22B8C39400B87193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3408D9522B8C62D00B87193 /* mackethienha.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = mackethienha.epub; sourceTree = "<group>"; };
+		B3408D9722B8C8E000B87193 /* The Adventures Of Sherlock Holmes - Adventure I.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The Adventures Of Sherlock Holmes - Adventure I.epub"; sourceTree = "<group>"; };
+		B3408D9822B8C8E000B87193 /* The Silver Chair.epub */ = {isa = PBXFileReference; explicitFileType = compiled; path = "The Silver Chair.epub"; sourceTree = "<group>"; };
+		B3408D9A22B8CA9E00B87193 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		B3408D9B22B8CA9E00B87193 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		DDC815727D8AD1ECB16C2728 /* Pods-EpubDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpubDemo.release.xcconfig"; path = "Target Support Files/Pods-EpubDemo/Pods-EpubDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3408D7D22B8C39200B87193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49BA343D6617DBD0C342BDA /* Pods_EpubDemo.framework in Frameworks */,
+				B322889B22BCC5AB00E9D610 /* Pods_EpubDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E095F77D4E431B033EB8E5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F7E4433FD6AE68D09928740 /* Pods-EpubDemo.debug.xcconfig */,
+				DDC815727D8AD1ECB16C2728 /* Pods-EpubDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		217AAFE8B24E4E837516D1A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D09E1E7601C9B584537878D /* Pods_EpubDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3408D7722B8C39200B87193 = {
+			isa = PBXGroup;
+			children = (
+				B3408D8222B8C39200B87193 /* EpubDemo */,
+				B3408D8122B8C39200B87193 /* Products */,
+				1E095F77D4E431B033EB8E5B /* Pods */,
+				217AAFE8B24E4E837516D1A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3408D8122B8C39200B87193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3408D8022B8C39200B87193 /* EpubDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3408D8222B8C39200B87193 /* EpubDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B3408D9922B8CA8F00B87193 /* Test */,
+				B3408D9622B8C8B600B87193 /* Epub */,
+				B3408D8322B8C39200B87193 /* AppDelegate.swift */,
+				B3408D8A22B8C39400B87193 /* Assets.xcassets */,
+				B3408D8C22B8C39400B87193 /* LaunchScreen.storyboard */,
+				B3408D8F22B8C39400B87193 /* Info.plist */,
+			);
+			path = EpubDemo;
+			sourceTree = "<group>";
+		};
+		B3408D9622B8C8B600B87193 /* Epub */ = {
+			isa = PBXGroup;
+			children = (
+				B3408D9722B8C8E000B87193 /* The Adventures Of Sherlock Holmes - Adventure I.epub */,
+				B3408D9822B8C8E000B87193 /* The Silver Chair.epub */,
+				B3408D9522B8C62D00B87193 /* mackethienha.epub */,
+			);
+			path = Epub;
+			sourceTree = "<group>";
+		};
+		B3408D9922B8CA8F00B87193 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				B3408D9A22B8CA9E00B87193 /* TestViewController.swift */,
+				B3408D9B22B8CA9E00B87193 /* TestViewController.xib */,
+				B32288C622BCD4F100E9D610 /* bogia.mobi */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3408D7F22B8C39200B87193 /* EpubDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3408D9222B8C39400B87193 /* Build configuration list for PBXNativeTarget "EpubDemo" */;
+			buildPhases = (
+				EBD993641115957657581756 /* [CP] Check Pods Manifest.lock */,
+				B3408D7C22B8C39200B87193 /* Sources */,
+				B3408D7D22B8C39200B87193 /* Frameworks */,
+				B3408D7E22B8C39200B87193 /* Resources */,
+				981B905F9C15AC6B566F379A /* [CP] Embed Pods Frameworks */,
+				B322889D22BCC5AB00E9D610 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EpubDemo;
+			productName = EpubDemo;
+			productReference = B3408D8022B8C39200B87193 /* EpubDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3408D7822B8C39200B87193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "DINH VAN TIEN";
+				TargetAttributes = {
+					B3408D7F22B8C39200B87193 = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = 356NEY7C4E;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B3408D7B22B8C39200B87193 /* Build configuration list for PBXProject "EpubDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3408D7722B8C39200B87193;
+			productRefGroup = B3408D8122B8C39200B87193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3408D7F22B8C39200B87193 /* EpubDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3408D7E22B8C39200B87193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3408D8E22B8C39400B87193 /* LaunchScreen.storyboard in Resources */,
+				B3408D8B22B8C39400B87193 /* Assets.xcassets in Resources */,
+				B3408D9D22B8CA9E00B87193 /* TestViewController.xib in Resources */,
+				B3408DA022B8D08400B87193 /* The Adventures Of Sherlock Holmes - Adventure I.epub in Resources */,
+				B3408D9E22B8D07E00B87193 /* mackethienha.epub in Resources */,
+				B32288C722BCD4F100E9D610 /* bogia.mobi in Resources */,
+				B3408D9F22B8D08100B87193 /* The Silver Chair.epub in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		981B905F9C15AC6B566F379A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EpubDemo/Pods-EpubDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
+				"${BUILT_PRODUCTS_DIR}/EpubExtractor/EpubExtractor.framework",
+				"${BUILT_PRODUCTS_DIR}/FolioReaderKit/FolioReaderKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FontBlaster/FontBlaster.framework",
+				"${BUILT_PRODUCTS_DIR}/MenuItemKit/MenuItemKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+				"${BUILT_PRODUCTS_DIR}/ZFDragableModalTransition/ZFDragableModalTransition.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EpubExtractor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FolioReaderKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontBlaster.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MenuItemKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZFDragableModalTransition.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EpubDemo/Pods-EpubDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBD993641115957657581756 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EpubDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3408D7C22B8C39200B87193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3408D9C22B8CA9E00B87193 /* TestViewController.swift in Sources */,
+				B3408D8422B8C39200B87193 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3408D8C22B8C39400B87193 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3408D8D22B8C39400B87193 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3408D9022B8C39400B87193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		B3408D9122B8C39400B87193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3408D9322B8C39400B87193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F7E4433FD6AE68D09928740 /* Pods-EpubDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 356NEY7C4E;
+				INFOPLIST_FILE = EpubDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lv.app.Vebrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Vebrary_dev;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3408D9422B8C39400B87193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC815727D8AD1ECB16C2728 /* Pods-EpubDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = EpubDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lv.app.Vebrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3408D7B22B8C39200B87193 /* Build configuration list for PBXProject "EpubDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3408D9022B8C39400B87193 /* Debug */,
+				B3408D9122B8C39400B87193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3408D9222B8C39400B87193 /* Build configuration list for PBXNativeTarget "EpubDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3408D9322B8C39400B87193 /* Debug */,
+				B3408D9422B8C39400B87193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3408D7822B8C39200B87193 /* Project object */;
+}

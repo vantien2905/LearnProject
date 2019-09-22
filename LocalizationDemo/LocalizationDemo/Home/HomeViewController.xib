@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="LocalizationDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="btnChangeLanguage" destination="pRr-5w-n8b" id="2c4-MK-MCO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pRr-5w-n8b">
+                    <rect key="frame" x="10" y="30" width="63" height="30"/>
+                    <state key="normal" title="Viet Nam"/>
+                    <state key="selected" title="English"/>
+                    <connections>
+                        <action selector="btnChangeLanguageTapped" destination="-1" eventType="touchUpInside" id="ogb-UZ-zJQ"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title home page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rzr-MK-WLc">
+                    <rect key="frame" x="10" y="80" width="123.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="localizationKey" value="lbTitle"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Content of home in there" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xnK-8v-vdR">
+                    <rect key="frame" x="10" y="121" width="191" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="localizationKey" value="lbContent"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Footer home there" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sC1-22-KXk">
+                    <rect key="frame" x="10" y="162" width="142" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="localizationKey" value="lbFooter"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWs-K3-r09">
+                    <rect key="frame" x="10" y="218" width="159" height="30"/>
+                    <state key="normal" title="Test localization button"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="localizationKey" value="btnTest"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="test placeholder of textfield" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="enZ-BA-EOX">
+                    <rect key="frame" x="10" y="268" width="355" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="localizationKey" value="tfTest"/>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Rzr-MK-WLc" firstAttribute="top" secondItem="pRr-5w-n8b" secondAttribute="bottom" constant="20" id="29o-8A-TrS"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="enZ-BA-EOX" secondAttribute="trailing" constant="10" id="2Uy-f1-smz"/>
+                <constraint firstItem="sC1-22-KXk" firstAttribute="top" secondItem="xnK-8v-vdR" secondAttribute="bottom" constant="20" id="55T-0V-Beq"/>
+                <constraint firstItem="sC1-22-KXk" firstAttribute="leading" secondItem="xnK-8v-vdR" secondAttribute="leading" id="5t4-Rs-Iqb"/>
+                <constraint firstItem="enZ-BA-EOX" firstAttribute="top" secondItem="JWs-K3-r09" secondAttribute="bottom" constant="20" id="Uhf-hn-lYi"/>
+                <constraint firstItem="enZ-BA-EOX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="W5C-s0-npW"/>
+                <constraint firstItem="pRr-5w-n8b" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="X4F-EV-sym"/>
+                <constraint firstItem="xnK-8v-vdR" firstAttribute="leading" secondItem="Rzr-MK-WLc" secondAttribute="leading" id="Xml-vB-NIm"/>
+                <constraint firstItem="pRr-5w-n8b" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="cGu-f2-crc"/>
+                <constraint firstItem="JWs-K3-r09" firstAttribute="leading" secondItem="sC1-22-KXk" secondAttribute="leading" id="dXg-9s-NBg"/>
+                <constraint firstItem="JWs-K3-r09" firstAttribute="top" secondItem="sC1-22-KXk" secondAttribute="bottom" constant="35" id="txC-1h-xIh"/>
+                <constraint firstItem="xnK-8v-vdR" firstAttribute="top" secondItem="Rzr-MK-WLc" secondAttribute="bottom" constant="20" id="ukc-cE-Kkn"/>
+                <constraint firstItem="Rzr-MK-WLc" firstAttribute="leading" secondItem="pRr-5w-n8b" secondAttribute="leading" id="wyq-eL-pam"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

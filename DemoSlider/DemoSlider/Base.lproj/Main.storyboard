@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DemoSlider" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HbP-DM-myS" customClass="TGPDiscreteSlider" customModule="TGPControls">
+                                <rect key="frame" x="10" y="120" width="355" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="zX8-iR-cMx"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="tickCount">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="thumbTintColor">
+                                        <color key="value" red="0.20233267939999999" green="0.28068070350000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rNv-Sq-3D7" customClass="DrawView" customModule="DemoSlider" customModuleProvider="target">
+                                <rect key="frame" x="37.5" y="318.5" width="300" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="mez-83-FgI"/>
+                                    <constraint firstAttribute="width" constant="300" id="ytM-LZ-23T"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="izt-u0-UFq" customClass="ProgressSliderView" customModule="DemoSlider" customModuleProvider="target">
+                                <rect key="frame" x="37.5" y="456" width="300" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="9Ia-z4-O04"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="izt-u0-UFq" firstAttribute="leading" secondItem="rNv-Sq-3D7" secondAttribute="leading" id="34K-4x-c44"/>
+                            <constraint firstItem="izt-u0-UFq" firstAttribute="top" secondItem="rNv-Sq-3D7" secondAttribute="bottom" constant="87.5" id="8Ma-gK-hrc"/>
+                            <constraint firstItem="rNv-Sq-3D7" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="I5G-Cp-Lbn"/>
+                            <constraint firstItem="HbP-DM-myS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="VrI-sJ-fJx"/>
+                            <constraint firstItem="rNv-Sq-3D7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="bW7-xM-g4a"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HbP-DM-myS" secondAttribute="trailing" constant="10" id="gWh-Va-HGr"/>
+                            <constraint firstItem="HbP-DM-myS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="hDd-ZZ-syq"/>
+                            <constraint firstItem="izt-u0-UFq" firstAttribute="trailing" secondItem="rNv-Sq-3D7" secondAttribute="trailing" id="yFT-7U-nrt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
